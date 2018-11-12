@@ -1,0 +1,37 @@
+..:: PROJETO SEEKER ::.. 
+
+Diretório de entrada: M3V.mp4
+Diretório de saída: nenhum
+Resultado esperado: [1, 8]
+Diretório do prototexto da rede neural: Modelos/MobileNetSSD_deploy.prototxt
+Diretório do modelo da rede neural: Modelos/MobileNetSSD_deploy.caffemodel
+Perspectiva do fluxo do tráfego: vertical
+Altura dos quadros em pixels: 418
+Largura dos quadros em pixels: 500
+Intervalo de quadros para busca de objetos: 30
+Grau de confiança do filtro de detecção: 0.43
+Distância euclidiana máxima para convergência de centroides: 150 pixels
+Persistência dos centroides em pós-desaparecimento: 30 quadros
+Métodos de manipulação de imagem utilizados: nenhum
+
+Quantidade esperada de tráfego subindo: 1 pessoas;
+Quantidade esperada de tráfego descendo: 8 pessoas;
+Quantidade esperada de tráfego total: 9 pessoas;
+
+Taxa de detecção de pessoas subindo: 100.00% do esperado;
+Taxa de detecção de pessoas descendo: 75.00% do esperado;
+Taxa de detecção de pessoas no total: 77.78% do esperado.
+
+Desvio para as pessoas subindo: 0.00% do esperado;
+Desvio para as pessoas descendo: 25.00% do esperado;
+Desvio para as pessoas no total: 22.22% do esperado.
+
+Tráfego subindo: 1 pessoas;
+Tráfego descendo: 6 pessoas;
+Pessoas detectadas: 7.
+
+Tempo de execução: 9.99 segundos.
+Taxa média de quadros por segundo: 73.25 FPS.
+
+..:: FIM DO LOG ::..
+
