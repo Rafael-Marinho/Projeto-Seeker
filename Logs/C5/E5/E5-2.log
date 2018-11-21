@@ -2,36 +2,36 @@
 
 Diretório de entrada: M5V.mp4
 Diretório de saída: nenhum
-Resultado esperado: [2, 0]
+Resultado esperado: [10, 25]
 Diretório do prototexto da rede neural: Modelos/MobileNetSSD_deploy.prototxt
 Diretório do modelo da rede neural: Modelos/MobileNetSSD_deploy.caffemodel
 Perspectiva do fluxo do tráfego: vertical
-Altura dos quadros em pixels: 175
+Altura dos quadros em pixels: 475
 Largura dos quadros em pixels: 500
-Intervalo de quadros para busca de objetos: 23
-Grau de confiança do filtro de detecção: 0.4
-Distância euclidiana máxima para convergência de centroides: 305 pixels
-Persistência dos centroides em pós-desaparecimento: 10 quadros
+Intervalo de quadros para busca de objetos: 24
+Grau de confiança do filtro de detecção: 0.37
+Distância euclidiana máxima para convergência de centroides: 25 pixels
+Persistência dos centroides em pós-desaparecimento: 6 quadros
 Métodos de manipulação de imagem utilizados: zero
 
-Quantidade esperada de tráfego subindo: 2 pessoas;
-Quantidade esperada de tráfego descendo: 0 pessoas;
-Quantidade esperada de tráfego total: 2 pessoas;
+Quantidade esperada de tráfego subindo: 10 pessoas;
+Quantidade esperada de tráfego descendo: 25 pessoas;
+Quantidade esperada de tráfego total: 35 pessoas;
 
 Taxa de detecção de pessoas subindo: 100.00% do esperado;
-Taxa de detecção de pessoas descendo: 100.00% do esperado;
-Taxa de detecção de pessoas no total: 100.00% do esperado.
+Taxa de detecção de pessoas descendo: 84.00% do esperado;
+Taxa de detecção de pessoas no total: 88.57% do esperado.
 
 Desvio para as pessoas subindo: 0.00% do esperado;
-Desvio para as pessoas descendo: 0.00% do esperado;
-Desvio para as pessoas no total: 0.00% do esperado.
+Desvio para as pessoas descendo: 16.00% do esperado;
+Desvio para as pessoas no total: 11.43% do esperado.
 
-Tráfego subindo: 2 pessoas;
-Tráfego descendo: 0 pessoas;
-Pessoas detectadas: 2.
+Tráfego subindo: 10 pessoas;
+Tráfego descendo: 21 pessoas;
+Pessoas detectadas: 31.
 
-Tempo de execução: 1.33 segundos.
-Taxa média de quadros por segundo: 75.66 FPS.
+Tempo de execução: 48.15 segundos.
+Taxa média de quadros por segundo: 65.07 FPS.
 
 ..:: FIM DO LOG ::..
 

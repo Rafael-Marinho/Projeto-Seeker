@@ -2,21 +2,21 @@
 
 Diretório de entrada: M2V.mp4
 Diretório de saída: nenhum
-Resultado esperado: [2, 2]
+Resultado esperado: [28, 12]
 Diretório do prototexto da rede neural: Modelos/MobileNetSSD_deploy.prototxt
 Diretório do modelo da rede neural: Modelos/MobileNetSSD_deploy.caffemodel
 Perspectiva do fluxo do tráfego: vertical
-Altura dos quadros em pixels: 420
+Altura dos quadros em pixels: 350
 Largura dos quadros em pixels: 500
-Intervalo de quadros para busca de objetos: 30
-Grau de confiança do filtro de detecção: 0.378
-Distância euclidiana máxima para convergência de centroides: 166 pixels
-Persistência dos centroides em pós-desaparecimento: 22 quadros
+Intervalo de quadros para busca de objetos: 25
+Grau de confiança do filtro de detecção: 0.15
+Distância euclidiana máxima para convergência de centroides: 75 pixels
+Persistência dos centroides em pós-desaparecimento: 10 quadros
 Métodos de manipulação de imagem utilizados: borda
 
-Quantidade esperada de tráfego subindo: 2 pessoas;
-Quantidade esperada de tráfego descendo: 2 pessoas;
-Quantidade esperada de tráfego total: 4 pessoas;
+Quantidade esperada de tráfego subindo: 28 pessoas;
+Quantidade esperada de tráfego descendo: 12 pessoas;
+Quantidade esperada de tráfego total: 40 pessoas;
 
 Taxa de detecção de pessoas subindo: 0.00% do esperado;
 Taxa de detecção de pessoas descendo: 0.00% do esperado;
@@ -30,8 +30,8 @@ Tráfego subindo: 0 pessoas;
 Tráfego descendo: 0 pessoas;
 Pessoas detectadas: 0.
 
-Tempo de execução: 5.59 segundos.
-Taxa média de quadros por segundo: 92.66 FPS.
+Tempo de execução: 61.58 segundos.
+Taxa média de quadros por segundo: 84.33 FPS.
 
 ..:: FIM DO LOG ::..
 
